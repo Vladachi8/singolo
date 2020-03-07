@@ -143,6 +143,7 @@ ul, li {
     top: 12px;
     left: 99px;
 }
+
 .phone.horizont::before{
     transform: rotate(90deg);
     left: 220px;
@@ -213,6 +214,7 @@ h2 {
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
+    text-align: justify;
 }
 
 h3 {
@@ -235,6 +237,7 @@ h3 {
     font-size: 12px;
     line-height: 21px;
     color: #767e9e;
+    text-align: justify;
 }
 
 .tool-items {
@@ -278,7 +281,7 @@ h3 {
 }
 
 .tag {
-    padding: 2px 6px;
+    padding: 2px 7px;
     border-radius: 5px;
     border: 1px solid #666d89;
     font-size: 12px;
@@ -295,7 +298,7 @@ h3 {
 }
 
 .tag:not(:first-child) {
-    margin-left: 8px;
+    margin-left: 4px;
 }
 
 .layout-3-column {
@@ -396,8 +399,8 @@ h3 {
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
-    letter-spacing: 0.15px;
     color: #f0d8d9;
+    text-align: justify;
 }
 
 .information {
@@ -416,6 +419,7 @@ h3 {
     font-size: 12px;
     font-weight: 400;
     color: #f0d8d9;
+    text-align: justify;
 }
 
 .quote__form {
@@ -447,6 +451,7 @@ h3 {
     color: #f0d8d9;
     background-color: black;
 }
+
 .form input {
     display: block;
     height: 39px;
@@ -455,7 +460,8 @@ h3 {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.quote__links .icon{
+
+.quote__links .icon {
     width: 13px;
     text-align: center;
     display: inline-block;
@@ -463,31 +469,35 @@ h3 {
     left: -2px;
     position: relative;
 }
-.form{
+
+.form {
     width: 618px;
 }
+
 .form textarea {
     padding: 11px 15px;
 }
 
 .form input::-webkit-input-placeholder,
-.form textarea::-webkit-input-placeholder{
+.form textarea::-webkit-input-placeholder {
     padding: 0;
     margin: 0;
     color: #f48c8f;
     font-size: 12px;
     font-weight: 400;
 }
-.form input:-moz-placeholder,
-.form textarea:-moz-placeholder{
+
+.form input::-moz-placeholder,
+.form textarea::-moz-placeholder {
     padding: 0;
     margin: 0;
     color: #f48c8f;
     font-size: 12px;
     font-weight: 400;
 }
-.form input:-ms-input-placeholder,
-.form textarea:-ms-input-placeholder {
+
+.form input::-ms-input-placeholder,
+.form textarea::-ms-input-placeholder {
     padding: 0;
     margin: 0;
     color: #f48c8f;
@@ -501,7 +511,7 @@ h3 {
 
 textarea {
     resize: none;
-    height: 202px;
+    height: 203px;
     margin-top: 15px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -528,7 +538,7 @@ footer {
 .footer__flex {
     display: flex;
     justify-content: space-between;
-    padding: 5px 0px;
+    padding: 7px 0px;
     align-items: center;
 }
 
@@ -557,4 +567,10 @@ footer {
 
 .footer__icons a:hover {
     background-color: black;
+}
+
+.footer__flex span {
+    font-size: 12px;
+    color: #666d89;
+    letter-spacing: -0.13px;
 }
